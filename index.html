@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Substr</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <nav class="top-menu">
+        <ul class="menu-main">
+          <li class="left-item"><a href="https://natashamalakhova.github.io/DNAtoRNA/">Конвертор ДНК в РНК</a></li>
+          <li class="left-item"><a href="https://natashamalakhova.github.io/Palindrom/">Проверка на палиндром</a></li>
+          <li class="left-item"><a href="">Подстрока</a></li>
+      </ul>
+      </nav>
+    <div class="pal">
+      <h1>Верните подстроку из строки</h1>
+      <p>Метод substr возвращает подстроку из переданной строки. Подстрокой называется любая выбранная часть строки. Например для строки hello можно выделить следующие подстроки: ello, llo, o, el и множество других. </p>
+      <form class="add-form" method="post" onsubmit="return false">
+        <input class="add-form-input" type="text"  aria-label="task description" placeholder=" Введите любые данные." required>
+        <button class="add-form-button" type="submit">Проверить</button>
+      </form>
+      <div>
+        <h2>Подстрока: <span id="answer"></span> </h2>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
